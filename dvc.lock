@@ -1,0 +1,12 @@
+schema: '2.0'
+stages:
+  prime-joint_success:
+    cmd: datazimmer run-step prime-joint_success
+    deps:
+    - path: src/joint_success.py
+      md5: d141bbeb91ef9e6e6ebd6f191a1c536c
+      size: 739
+    outs:
+    - path: data/dogcombine/joint_success/prime/dog_success.parquet
+      md5: d3ff9dd9e145698b3e98d664c0f5c9b3
+      size: 1684

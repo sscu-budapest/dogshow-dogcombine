@@ -1,0 +1,7 @@
+stages:
+  prime-joint_success:
+    cmd: datazimmer run-step prime-joint_success
+    deps:
+    - src/joint_success.py
+    outs:
+    - data/dogcombine/joint_success/prime/dog_success.parquet
